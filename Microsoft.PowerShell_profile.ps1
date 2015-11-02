@@ -18,6 +18,7 @@ Write-Host "Available Providers (use Set-Location ProviderName:) $Providers"
 
 New-Alias sublime "C:\Program Files\Sublime Text 2\sublime_text.exe"
 Set-Alias -Name ls -Value PowerLS -Option AllScope
+New-Alias fsi "C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\Fsi.exe"
 
 function which($name)
 {
